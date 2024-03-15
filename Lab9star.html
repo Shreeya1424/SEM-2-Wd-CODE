@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>star</title>
+	<style type="text/css">
+		.a1{
+		height: 150px;
+			width: 10%;
+			background-color: skyblue;
+			animation-name: changecolor;
+			animation-duration: 10s;
+			position: absolute;
+		}
+		@keyframes changecolor{
+			form{
+				background-color: skyblue;
+			}
+			to{
+				background-color:pink;
+			}
+			0%{
+				top: 400px;
+				left: 0px;
+			}
+			16%{
+				top: 0px;
+				left: 400px; 
+			}
+			32%{
+				top: 600px;
+				left: 800px;
+			}
+			48%{
+				top: 300px;
+				left: 0px;
+			}
+			64%{
+				top: 200px;
+				left: 900px;
+			}
+			80%{
+				top: 600px;
+				left: 0px;
+			}
+			100%{
+				top: 600px;
+				left: 0px;
+			}
+
+		}
+	</style>
+</head>
+<body>
+<div class="a1"></div>
+</body>
+</html>

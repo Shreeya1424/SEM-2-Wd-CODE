@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style type="text/css">
+        body{
+            height: 1024px;
+        }
+        .div1{
+            background-color: darkseagreen;
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            left: 100px;
+            top: 100px;
+            z-index: 5;
+        }
+        .div2{
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+            z-index: 7;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="div1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione voluptatum animi harum enim tempora accusamus adipisci distinctio, id doloremque, vel porro neque dolore, architecto similique vitae molestiae ad fugit!
+       
+    </div>
+        <div class="div2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis neque laboriosam saepe! Voluptates tempore corporis, sint laudantium incidunt enim id praesentium sunt quibusdam quis inventore alias quia vero aliquid autem.
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+<!--z index-> whichever div has higher index will come forward-->

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aioa</title>
+	<style type="text/css">
+		.blue{
+			height: 100px;
+			width: 50%;
+			background-color: skyblue;
+			text-align: center;
+			padding-top: 80px;
+			animation-name: changecolor;
+			animation-duration: 10s;
+			position: absolute;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: reverse;
+			animation-timing-function: 300s;
+		}
+		@keyframes changecolor{
+			form{
+				background-color: skyblue;
+			}
+			to{
+				background-color:pink;
+			}
+			0%{
+				top: 0px;
+				left: 0px;
+			}
+			25%{
+				top:0px;
+				left: 750px; 
+			}
+			50%{
+				top: 500px;
+				left: 750px;
+			}
+			75%{
+				top: 500px;
+				left: 0px;
+			}
+			100%{
+				top: 0px;
+				left: 0px;
+			}
+
+		}
+		.blue:hover{
+			background-color: pink;
+		}
+	</style>
+</head>
+<body>
+		<div>
+			<div class="blue"><b>Hello!</b></div>
+		</div>
+</body>
+</html>
